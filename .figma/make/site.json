@@ -1,0 +1,10 @@
+{
+  "description": "This web application enables users to effortlessly create high-end professional websites, featuring customizable logos in the header and footer for branding.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
