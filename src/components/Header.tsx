@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '../imports/1280.jpg';
+import logo from "/assets/1280.png";
 
 type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
 
