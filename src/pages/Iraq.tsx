@@ -8,15 +8,15 @@ interface IraqProps {
 
 export default function Iraq({ onNavigate }: IraqProps) {
   const [selectedPackage, setSelectedPackage] = useState<'darbar' | 'hotel'>('darbar');
-  const [checkIn] = useState('01 February, 2026');
-  const [checkOut] = useState('10 February, 2026');
+  const [checkIn] = useState('20 December, 2026');
+  const [checkOut] = useState('31 December, 2026');
   const [commentName, setCommentName] = useState('');
   const [commentEmail, setCommentEmail] = useState('');
   const [commentMsg, setCommentMsg] = useState('');
   const [saveInfo, setSaveInfo] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const prices = { darbar: 245000, hotel: 285000 };
+  const prices = { darbar: 245000, hotel: 310000 };
   const totalPrice = prices[selectedPackage];
 
   return (
