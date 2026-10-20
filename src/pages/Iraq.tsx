@@ -91,7 +91,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                       backgroundClip: 'text',
                     }}
                   >
-                    ₨245,000
+                    ₨310,000
                   </p>
                   <p className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.4)' }}>Per Person | TAXES INCL</p>
                 </div>
@@ -144,9 +144,9 @@ export default function Iraq({ onNavigate }: IraqProps) {
                 </h3>
                 <div className="grid sm:grid-cols-3 gap-4">
                   {[
-                    { nights: '06 Nights', place: 'Baghdad', icon: '🕌' },
+                    { nights: '04 Nights', place: 'Baghdad', icon: '🕌' },
                     { nights: '02 Nights', place: 'Karbala Maula', icon: '✨' },
-                    { nights: '02 Nights', place: 'Najaf Ashraf', icon: '🌙' },
+                    { nights: '03 Nights', place: 'Najaf Ashraf', icon: '🌙' },
                   ].map(h => (
                     <div
                       key={h.place}
@@ -173,7 +173,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Comments */}
-              <div>
+              {/* <div>
                 <h3 className="text-xl font-bold mb-5" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>
                   Customer Comments
                 </h3>
@@ -199,10 +199,10 @@ export default function Iraq({ onNavigate }: IraqProps) {
                       <button className="mt-2 text-xs font-semibold" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>Reply</button>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Comment Form */}
-                <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
+                {/* <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
                   <h4 className="text-base font-bold mb-1" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>Leave a Comment</h4>
                   <p className="text-xs mb-4" style={{ color: 'rgba(var(--text-main-rgb), 0.45)' }}>Your email address will not be published.</p>
                   {submitted ? (
@@ -244,7 +244,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                   )}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Booking Sidebar */}
             <div className="space-y-5">
@@ -283,8 +283,8 @@ export default function Iraq({ onNavigate }: IraqProps) {
                   <label className="text-xs font-semibold mb-2 block" style={{ color: 'rgba(var(--text-main-rgb), 0.6)', fontFamily: 'Outfit, sans-serif' }}>Package Option</label>
                   <div className="space-y-2">
                     {[
-                      { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
-                      { key: 'hotel' as const, label: 'Hotel Package', price: '₨285,000' },
+                      // { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
+                      { key: 'hotel' as const, label: 'Hotel Package', price: '₨310,000' },
                     ].map(opt => (
                       <button
                         key={opt.key}
