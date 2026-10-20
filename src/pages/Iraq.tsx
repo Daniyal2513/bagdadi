@@ -173,7 +173,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Comments */}
-              {/* <div>
+              <div>
                 <h3 className="text-xl font-bold mb-5" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>
                   Customer Comments
                 </h3>
@@ -199,7 +199,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                       <button className="mt-2 text-xs font-semibold" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>Reply</button>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
                 {/* Comment Form */}
                 <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
