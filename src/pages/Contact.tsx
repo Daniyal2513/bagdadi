@@ -75,14 +75,14 @@ export default function Contact({ onNavigate }: ContactProps) {
   return (
     <div style={{ paddingTop: '72px' }}>
       {/* Announcement Bar */}
-      <div
+      {/* <div
         className="announcement-bar py-2 px-4 text-center text-xs"
         style={{ color: 'rgba(var(--text-main-rgb), 0.75)' }}
       >
         <span style={{ color: '#D4AF37' }}>Email: info@Baghdaditravels.com</span>
         {' | '}
         <span className="font-semibold">50% Off Your Next Trip. Hurry Up For your new Tour!</span>
-      </div>
+      </div> */}
 
       {/* Hero */}
       <div className="relative py-16 overflow-hidden" style={{ background: 'var(--bg-mid)' }}>

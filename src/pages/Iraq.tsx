@@ -23,7 +23,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
   return (
     <div style={{ paddingTop: '72px' }}>
       {/* Announcement Bar */}
-      <div
+      {/* <div
         className="announcement-bar py-2 px-4 text-center text-xs"
         style={{ color: 'rgba(var(--text-main-rgb), 0.75)', fontFamily: 'Inter, sans-serif' }}
       >
@@ -34,7 +34,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
         <a href="#" className="ml-2 hover:text-yellow-400 transition-colors">Facebook</a>
         {' · '}
         <a href="#" className="hover:text-yellow-400 transition-colors">Instagram</a>
-      </div>
+      </div> */}
 
       {/* Hero */}
       <div className="relative py-16 overflow-hidden" style={{ background: 'var(--bg-mid)' }}>
