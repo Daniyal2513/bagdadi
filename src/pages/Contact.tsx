@@ -5,7 +5,9 @@ type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
 interface ContactProps {
   onNavigate: (page: Page) => void;
 }
-
+const WHATSAPP_NUMBER = '923219262931';
+const WHATSAPP_MESSAGE = 'Hello Baghdadi Travel & Tourism, I would like to inquire about your tours.';
+const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 const contactCards = [
   {
     icon: (
@@ -216,7 +218,7 @@ export default function Contact({ onNavigate }: ContactProps) {
               {/* Quick Contact Buttons */}
               <div className="space-y-3">
                 <a
-                  href="tel:03362321117"
+                  href="tel:03219262931"
                   className="flex items-center gap-3 p-4 rounded-xl transition-all duration-200 hover:opacity-90"
                   style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)' }}
                 >
@@ -225,11 +227,11 @@ export default function Contact({ onNavigate }: ContactProps) {
                   </svg>
                   <div>
                     <p className="text-xs font-semibold" style={{ color: 'var(--bg-deep)', opacity: 0.7 }}>Call Us</p>
-                    <p className="text-sm font-bold" style={{ color: 'var(--bg-deep)', fontFamily: 'Outfit, sans-serif' }}>03362321117</p>
+                    <p className="text-sm font-bold" style={{ color: 'var(--bg-deep)', fontFamily: 'Outfit, sans-serif' }}>03219262931</p>
                   </div>
                 </a>
                 <a
-                  href="https://wa.me/923362321117"
+                  href="https://wa.me/923219262931"
                   className="flex items-center gap-3 p-4 rounded-xl transition-all duration-200"
                   style={{ background: 'var(--bg-mid)', border: '1.5px solid rgba(212,175,55,0.3)' }}
                 >
