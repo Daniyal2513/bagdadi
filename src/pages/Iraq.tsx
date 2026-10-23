@@ -7,8 +7,7 @@ interface IraqProps {
 }
 
 export default function Iraq({ onNavigate }: IraqProps) {
-  const [selectedPackage, setSelectedPackage] =useState<'hotel'>;  //  useState<'darbar' | 'hotel'>('hotel');
-
+  const [selectedPackage, setSelectedPackage] =useState<'hotel'>('hotel');
   const [checkIn] = useState('20 December, 2026');
   const [checkOut] = useState('31 December, 2026');
   const [commentName, setCommentName] = useState('');
