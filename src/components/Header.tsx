@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import logo from '../assets/1280.png';
 
-type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 interface HeaderProps {
   theme: 'dark' | 'light';

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
-
+// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 interface HomeProps {
   onNavigate: (page: Page) => void;
 }
