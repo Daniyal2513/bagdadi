@@ -173,11 +173,11 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Comments */}
-              {/* <div>
+              <div>
                 <h3 className="text-xl font-bold mb-5" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>
                   Customer Comments
                 </h3>
-                <div
+                {/* <div
                   className="p-5 rounded-xl mb-6"
                   style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}
                 >
@@ -243,7 +243,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                     </div>
                   )}
                 </div> */}
-              {/* </div> */}
+              </div>
             </div>
 
             {/* Booking Sidebar */}
