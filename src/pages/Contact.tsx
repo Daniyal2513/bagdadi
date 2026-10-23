@@ -17,7 +17,7 @@ const contactCards = [
     ),
     title: 'Primary Phone',
     lines: ['03219262931', '03219262931'],
-    href: 'tel:03219262931',
+    href: 'https://wa.me/923219262931',
   },
   {
     icon: (
@@ -27,7 +27,7 @@ const contactCards = [
     ),
     title: 'Alternate Phone',
     lines: ['03219262931', '03352533127'],
-    href: 'tel:03219262931',
+    href: 'https://wa.me/923352533127',
   },
   {
     icon: (
@@ -218,7 +218,7 @@ export default function Contact({ onNavigate }: ContactProps) {
               {/* Quick Contact Buttons */}
               <div className="space-y-3">
                 <a
-                  href="tel:03219262931"
+                  href="https://wa.me/923219262931"
                   className="flex items-center gap-3 p-4 rounded-xl transition-all duration-200 hover:opacity-90"
                   style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)' }}
                 >
