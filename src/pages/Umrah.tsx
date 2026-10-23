@@ -21,14 +21,14 @@ const packages = [
     img: 'https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=700&h=500&fit=crop&auto=format',
     includes: ['Return Air Ticket', 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
   },
-  {
-    title: "Rajab Sha'ban Umrah Package 1",
-    location: 'Makkah, Madina',
-    price: '₨300,000',
-    nights: '20 Dayss',
-    img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
-    includes: ['Return Air Ticket', 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
-  },
+  // {
+  //   title: "Rajab Sha'ban Umrah Package 1",
+  //   location: 'Makkah, Madina',
+  //   price: '₨300,000',
+  //   nights: '20 Dayss',
+  //   img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
+  //   includes: ['Return Air Ticket', 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
+  // },
 ];
 
 export default function Umrah({ onNavigate }: UmrahProps) {
@@ -135,7 +135,7 @@ export default function Umrah({ onNavigate }: UmrahProps) {
                       >
                         {pkg.price}
                       </p>
-                      <p className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.4)' }}>TAXES INCL/PERS</p>
+                      <p className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.4)' }}></p>
                     </div>
                     <button
                       onClick={() => onNavigate('contact')}
