@@ -108,7 +108,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Included / Excluded */}
-              <div className="grid sm:grid-cols-2 gap-6">
+              {/* <div className="grid sm:grid-cols-2 gap-6">
                 <div className="p-5 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
                   <h4 className="text-sm font-bold mb-4" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>✓ Included</h4>
                   <div className="space-y-2.5">
@@ -135,7 +135,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Tour Highlights */}
               <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
