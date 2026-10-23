@@ -173,11 +173,11 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Comments */}
-              <div>
+              {/* <div>
                 <h3 className="text-xl font-bold mb-5" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>
                   Customer Comments
-                </h3>
-                <div
+                </h3> */}
+                {/* <div
                   className="p-5 rounded-xl mb-6"
                   style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}
                 >
@@ -199,10 +199,10 @@ export default function Iraq({ onNavigate }: IraqProps) {
                       <button className="mt-2 text-xs font-semibold" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>Reply</button>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Comment Form */}
-                <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
+                {/* <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
                   <h4 className="text-base font-bold mb-1" style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}>Leave a Comment</h4>
                   <p className="text-xs mb-4" style={{ color: 'rgba(var(--text-main-rgb), 0.45)' }}>Your email address will not be published.</p>
                   {submitted ? (
@@ -243,7 +243,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                     </div>
                   )}
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Booking Sidebar */}
