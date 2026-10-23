@@ -47,7 +47,7 @@ const contactCards = [
       </svg>
     ),
     title: 'Location',
-    lines: ['Suite #2, Al Haram Tower No.1', 'Near Bahra-E-Shariat Masjid, Bahadurabad'],
+    lines: ['LAVISH MALL, Office No.35 3rd Floor, Tariq Road, Karachi Pakistan'],
     href: '#',
   },
   {
