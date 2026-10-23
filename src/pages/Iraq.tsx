@@ -7,7 +7,8 @@ interface IraqProps {
 }
 
 export default function Iraq({ onNavigate }: IraqProps) {
-  const [selectedPackage, setSelectedPackage] = useState<'darbar' | 'hotel'>('hotel');
+  const [selectedPackage, setSelectedPackage] =useState<'hotel'>;  //  useState<'darbar' | 'hotel'>('hotel');
+
   const [checkIn] = useState('20 December, 2026');
   const [checkOut] = useState('31 December, 2026');
   const [commentName, setCommentName] = useState('');
@@ -16,7 +17,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
   const [saveInfo, setSaveInfo] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const prices = { hotel: 310000, darbar: 245000 };
+  const prices = { hotel: 310000, };
   const totalPrice = prices[selectedPackage];
 
   return (
@@ -283,7 +284,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                   <label className="text-xs font-semibold mb-2 block" style={{ color: 'rgba(var(--text-main-rgb), 0.6)', fontFamily: 'Outfit, sans-serif' }}>Package Option</label>
                   <div className="space-y-2">
                     {[
-                      { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
+                      // { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
                       { key: 'hotel' as const, label: 'Hotel Package', price: '₨310,000' },
                     ].map(opt => (
                       <button
