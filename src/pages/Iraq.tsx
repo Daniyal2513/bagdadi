@@ -7,7 +7,7 @@ interface IraqProps {
 }
 
 export default function Iraq({ onNavigate }: IraqProps) {
-  const [selectedPackage, setSelectedPackage] = useState<'darbar' | 'hotel'>('darbar');
+  const [selectedPackage, setSelectedPackage] = useState<'darbar' | 'hotel'>('hotel');
   const [checkIn] = useState('20 December, 2026');
   const [checkOut] = useState('31 December, 2026');
   const [commentName, setCommentName] = useState('');
@@ -16,7 +16,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
   const [saveInfo, setSaveInfo] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const prices = { hotel: 310000, };
+  const prices = { hotel: 310000, darbar: 245000 };
   const totalPrice = prices[selectedPackage];
 
   return (
@@ -108,7 +108,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Included / Excluded */}
-              {/* <div className="grid sm:grid-cols-2 gap-6">
+              <div className="grid sm:grid-cols-2 gap-6">
                 <div className="p-5 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
                   <h4 className="text-sm font-bold mb-4" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>✓ Included</h4>
                   <div className="space-y-2.5">
@@ -135,7 +135,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                     ))}
                   </div>
                 </div>
-              </div> */}
+              </div>
 
               {/* Tour Highlights */}
               <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
@@ -283,7 +283,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                   <label className="text-xs font-semibold mb-2 block" style={{ color: 'rgba(var(--text-main-rgb), 0.6)', fontFamily: 'Outfit, sans-serif' }}>Package Option</label>
                   <div className="space-y-2">
                     {[
-                      // { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
+                      { key: 'darbar' as const, label: 'Darbar Package', price: '₨245,000' },
                       { key: 'hotel' as const, label: 'Hotel Package', price: '₨310,000' },
                     ].map(opt => (
                       <button
