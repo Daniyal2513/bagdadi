@@ -15,9 +15,9 @@ const navItems: { label: string; page: Page }[] = [
   { label: 'Home', page: 'home' },
   { label: 'About Us', page: 'about' },
   { label: 'Umrah', page: 'umrah' },
-  { label: 'Iran', page: 'iran' },
+  // { label: 'Iran', page: 'iran' },
   { label: 'Iraq', page: 'iraq' },
-  { label: 'Visa', page: 'visa' },
+  // { label: 'Visa', page: 'visa' },
   { label: 'Contact', page: 'contact' },
 ];
 const WHATSAPP_NUMBER = '923219262931';
