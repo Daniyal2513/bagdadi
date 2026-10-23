@@ -103,7 +103,7 @@ export default function Contact({ onNavigate }: ContactProps) {
       {/* Contact Cards */}
       <section style={{ background: 'var(--bg-deep)' }} className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 mb-16">
             {contactCards.map((card, i) => (
               <a
                 key={card.title}
@@ -123,7 +123,7 @@ export default function Contact({ onNavigate }: ContactProps) {
                 ))}
               </a>
             ))}
-          </div> */}
+          </div>
 
           {/* Contact Form */}
           <div className="grid lg:grid-cols-2 gap-12 items-start">
