@@ -16,7 +16,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
   const [saveInfo, setSaveInfo] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const prices = { hotel: 310000 };
+  const prices = { hotel: 310000, };
   const totalPrice = prices[selectedPackage];
 
   return (
