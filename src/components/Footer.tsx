@@ -76,7 +76,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 </svg>
               </a>
               <a
-                href="https://wa.me/923362321117"
+                href="https://wa.me/923219262931"
                 className="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
                 style={{ border: '1.5px solid rgba(212,175,55,0.4)', color: '#D4AF37' }}
                 aria-label="WhatsApp"

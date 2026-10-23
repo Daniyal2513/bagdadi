@@ -16,7 +16,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
   const [saveInfo, setSaveInfo] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const prices = { darbar: 245000, hotel: 310000 };
+  const prices = { hotel: 310000 };
   const totalPrice = prices[selectedPackage];
 
   return (
@@ -80,7 +80,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                 style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.25)' }}
               >
                 <div>
-                  <p className="text-xs mb-1" style={{ color: 'rgba(var(--text-main-rgb), 0.5)' }}>Starting From</p>
+                  <p className="text-xs mb-1" style={{ color: 'rgba(var(--text-main-rgb), 0.5)' }}></p>
                   <p
                     className="text-3xl font-black"
                     style={{
@@ -93,7 +93,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                   >
                     ₨310,000
                   </p>
-                  <p className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.4)' }}>Per Person | TAXES INCL</p>
+                  <p className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.4)' }}>Per Person </p>
                 </div>
                 <div className="flex flex-wrap gap-4">
                   <div className="text-center">
@@ -108,7 +108,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
               </div>
 
               {/* Included / Excluded */}
-              <div className="grid sm:grid-cols-2 gap-6">
+              {/* <div className="grid sm:grid-cols-2 gap-6">
                 <div className="p-5 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>
                   <h4 className="text-sm font-bold mb-4" style={{ color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}>✓ Included</h4>
                   <div className="space-y-2.5">
@@ -135,7 +135,7 @@ export default function Iraq({ onNavigate }: IraqProps) {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Tour Highlights */}
               <div className="p-6 rounded-xl" style={{ background: 'var(--bg-mid)', border: '1px solid rgba(212,175,55,0.15)' }}>

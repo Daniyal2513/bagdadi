@@ -7,41 +7,41 @@ interface HomeProps {
 }
 
 const packages = [
-  {
-    id: 1,
-    title: 'Gulfood Dubai 2026',
-    location: 'Dubai',
-    price: 'Contact Us For Price',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
-    tag: 'Event',
-    page: 'visa' as Page,
-  },
-  {
-    id: 2,
-    title: 'Baku + Shahdag',
-    location: 'Azerbaijan',
-    price: '₨265,000',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1616701639706-a89d1a609eda?w=600&h=400&fit=crop&auto=format',
-    tag: 'International',
-    page: 'about' as Page,
-  },
+  // {
+  //   id: 1,
+  //   title: 'Gulfood Dubai 2026',
+  //   location: 'Dubai',
+  //   price: 'Contact Us For Price',
+  //   priceNote: 'TAXES INCL/PERS',
+  //   img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+  //   tag: 'Event',
+  //   page: 'visa' as Page,
+  // },
+  // {
+  //   id: 2,
+  //   title: 'Baku + Shahdag',
+  //   location: 'Azerbaijan',
+  //   price: '₨265,000',
+  //   priceNote: 'TAXES INCL/PERS',
+  //   img: 'https://images.unsplash.com/photo-1616701639706-a89d1a609eda?w=600&h=400&fit=crop&auto=format',
+  //   tag: 'International',
+  //   page: 'about' as Page,
+  // },
   {
     id: 3,
     title: 'Baghdad Tour 2026 Package 1',
     location: 'Baghdad',
-    price: '₨245,000',
-    priceNote: 'TAXES INCL/PERS',
+    price: '₨310,000',
+    priceNote: '',
     img: 'https://images.unsplash.com/photo-1564547889663-dbebc1c00849?w=600&h=400&fit=crop&auto=format',
     tag: 'Ziyarat',
     page: 'iraq' as Page,
   },
   {
     id: 4,
-    title: 'Ramzan Umrah Package 2',
+    title: 'Ramzan Umrah Package 2 20 Days',
     location: 'Makkah, Madina',
-    price: '₨370,000',
+    price: '₨255,000',
     priceNote: 'TAXES INCL/PERS',
     img: 'https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?w=600&h=400&fit=crop&auto=format',
     tag: 'Umrah',
@@ -49,34 +49,34 @@ const packages = [
   },
   {
     id: 5,
-    title: 'Ramzan Umrah Package 1',
+    title: 'Ramzan Umrah Package 1 20 Days',
     location: 'Makkah, Madina',
-    price: '₨320,000',
-    priceNote: 'TAXES INCL/PERS',
+    price: '₨305,000',
+    priceNote: '',
     img: 'https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=600&h=400&fit=crop&auto=format',
     tag: 'Umrah',
     page: 'umrah' as Page,
   },
-  {
-    id: 6,
-    title: "Rajab Sha'ban Umrah Package 1",
-    location: 'Makkah, Madina',
-    price: '₨300,000',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=600&h=400&fit=crop&auto=format',
-    tag: 'Umrah',
-    page: 'umrah' as Page,
-  },
-  {
-    id: 7,
-    title: "Winter's In Iran",
-    location: 'Iran',
-    price: '₨225,000',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1638902061166-72cc9d6b1f98?w=600&h=400&fit=crop&auto=format',
-    tag: 'Ziyarat',
-    page: 'iran' as Page,
-  },
+  // {
+  //   id: 6,
+  //   title: "Rajab Sha'ban Umrah Package 1",
+  //   location: 'Makkah, Madina',
+  //   price: '₨300,000',
+  //   priceNote: 'TAXES INCL/PERS',
+  //   img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=600&h=400&fit=crop&auto=format',
+  //   tag: 'Umrah',
+  //   page: 'umrah' as Page,
+  // },
+  // {
+  //   id: 7,
+  //   title: "Winter's In Iran",
+  //   location: 'Iran',
+  //   price: '₨225,000',
+  //   priceNote: 'TAXES INCL/PERS',
+  //   img: 'https://images.unsplash.com/photo-1638902061166-72cc9d6b1f98?w=600&h=400&fit=crop&auto=format',
+  //   tag: 'Ziyarat',
+  //   page: 'iran' as Page,
+  // },
 ];
 
 const features = [
@@ -348,7 +348,7 @@ export default function Home({ onNavigate }: HomeProps) {
                   <div className="gold-divider mb-3" />
                   <div className="flex items-end justify-between">
                     <div>
-                      <p className="text-xs mb-0.5" style={{ color: 'rgba(var(--text-main-rgb), 0.45)' }}>Starting From</p>
+                      {/* <p className="text-xs mb-0.5" style={{ color: 'rgba(var(--text-main-rgb), 0.45)' }}>Starting From</p> */}
                       <p
                         className="text-lg font-black"
                         style={{

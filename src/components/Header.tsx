@@ -19,7 +19,7 @@ const navItems: { label: string; page: Page }[] = [
   { label: 'Visa', page: 'visa' },
   { label: 'Contact', page: 'contact' },
 ];
-const WHATSAPP_NUMBER = '923362321117';
+const WHATSAPP_NUMBER = '923219262931';
 const WHATSAPP_MESSAGE = 'Hello Baghdadi Travel & Tourism, I would like to inquire about your tours.';
 const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 

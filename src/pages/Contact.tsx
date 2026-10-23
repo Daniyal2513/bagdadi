@@ -14,8 +14,8 @@ const contactCards = [
       </svg>
     ),
     title: 'Primary Phone',
-    lines: ['03362321117', '03362321117'],
-    href: 'tel:03362321117',
+    lines: ['03219262931', '03219262931'],
+    href: 'tel:03219262931',
   },
   {
     icon: (
