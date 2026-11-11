@@ -31,7 +31,7 @@ const packages = [
     nights: '22 Days',
     date:'21st Feb 2027',
     img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
-    includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
+    includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport','Direct Airline'],
   },
   {
     title: "Ramzan Umrah Package 2 Last Ashra.",
@@ -40,7 +40,7 @@ const packages = [
     nights: '20 Days',
     date:'27th Feb 2027',
     img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
-    includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
+    includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport','Direct Airline'],
   },
   {
     title: "Umrah package 3 (Shab-e-Meraj + Shab-e-Barat)",
