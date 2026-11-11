@@ -12,7 +12,7 @@ const packages = [
     price: '₨255,000',
     nights: '20 Days',
     img: 'https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?w=700&h=500&fit=crop&auto=format',
-    // includes: [ 'Visa Assistance', 'Transportation By Bus', 'Guide Services','2 time Meal',''],
+    includes: [ 'Visa Assistance', 'Transportation By Bus', 'Guide Services','2 time Meal',''],
   },
   {
     title: 'Ramzan Umrah Package 1',
@@ -20,7 +20,7 @@ const packages = [
     price: '₨305,000',
     nights: '20 Days',
     img: 'https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=700&h=500&fit=crop&auto=format',
-    // includes: ['Return Air Ticket', 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
+    includes: ['Return Air Ticket', 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
   },
   {
     title: "Ramzan Umrah Package 3 Last Ashra.",
