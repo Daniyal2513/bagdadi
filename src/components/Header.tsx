@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import logo from '../assets/1280.png';
 
-// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
-type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
+type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+// type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 interface HeaderProps {
   theme: 'dark' | 'light';
@@ -15,9 +15,9 @@ const navItems: { label: string; page: Page }[] = [
   { label: 'Home', page: 'home' },
   { label: 'About Us', page: 'about' },
   { label: 'Umrah', page: 'umrah' },
-  // { label: 'Iran', page: 'iran' },
+  { label: 'Iran', page: 'iran' },
   { label: 'Iraq', page: 'iraq' },
-  // { label: 'Visa', page: 'visa' },
+  { label: 'Visa', page: 'visa' },
   { label: 'Contact', page: 'contact' },
 ];
 const WHATSAPP_NUMBER = '923219262931';
