@@ -12,7 +12,7 @@ const packages = [
     price: '₨255,000',
     nights: '20 Days',
     img: 'https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?w=700&h=500&fit=crop&auto=format',
-    includes: [ 'Visa Assistance', 'Transportation By Bus', 'Guide Services','2 time Meal',''],
+    includes: [ 'Visa Assistance', 'Transportation By Bus', 'Guide Services','2 time Meal'],
   },
   {
     title: 'Ramzan Umrah Package 1',
@@ -37,6 +37,15 @@ const packages = [
     nights: '20 Days',
     img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
     includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport'],
+  },
+  {
+    title: "Umrah package 5 (Shab-e-Meraj + Shab-e-Barat)",
+    location: 'Makkah, Madina',
+    price: '₨335,000',
+    nights: '24 Days',
+    date:'2nd January 2027',
+    img: 'https://images.unsplash.com/photo-1720549973451-018d3623b55a?w=700&h=500&fit=crop&auto=format',
+    includes: [ 'Hotel Accommodation', 'Visa Assistance', 'Ground Transport','Direct Airline'],
   },
 ];
 
@@ -108,6 +117,12 @@ export default function Umrah({ onNavigate }: UmrahProps) {
                     </svg>
                     <span className="text-xs" style={{ color: 'rgba(212,175,55,0.8)' }}>{pkg.location}</span>
                   </div>
+                  <span
+                      className="px-3 py-1 rounded-full text-xs font-bold"
+                      style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)', color: 'var(--bg-deep)', fontFamily: 'Outfit, sans-serif' }}
+                    >
+                      {pkg.date}
+                    </span>
                   <h3
                     className="text-xl font-bold mb-4 leading-snug"
                     style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}
