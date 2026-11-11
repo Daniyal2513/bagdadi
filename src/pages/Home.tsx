@@ -7,16 +7,26 @@ interface HomeProps {
 }
 
 const packages = [
-  // {
-  //   id: 1,
-  //   title: 'Gulfood Dubai 2026',
-  //   location: 'Dubai',
-  //   price: 'Contact Us For Price',
-  //   priceNote: 'TAXES INCL/PERS',
-  //   img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
-  //   tag: 'Event',
-  //   page: 'visa' as Page,
-  // },
+  {
+    id: 1,
+    title: 'Kuala Lumpur',
+    location: 'Malaysia',
+    price: '255,000/-',
+    priceNote: 'TAXES INCL/PERS',
+    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+    tag: 'International',
+    page: 'contact' as Page,
+  },
+  {
+    id: 6,
+    title: 'Indonesia + Malaysia',
+    location: 'Indonesia & Malaysia',
+    price: '455,000/-',
+    priceNote: 'TAXES INCL/PERS',
+    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+    tag: 'International',
+    page: 'contact' as Page,
+  },
   {
     id: 2,
     title: 'Pattaya + Bangkok',
@@ -25,7 +35,7 @@ const packages = [
     priceNote: 'TAXES INCL/PERS',
     img: 'https://images.unsplash.com/photo-1616701639706-a89d1a609eda?w=600&h=400&fit=crop&auto=format',
     tag: 'International',
-    page: 'home' as Page,
+    page: 'contact' as Page,
   },
   {
     id: 3,
