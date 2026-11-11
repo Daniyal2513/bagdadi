@@ -116,7 +116,7 @@ export default function Umrah({ onNavigate }: UmrahProps) {
                   </h3>
 
                   {/* Includes */}
-                  {/* <div className="space-y-2 mb-5">
+                  <div className="space-y-2 mb-5">
                     {pkg.includes.map(inc => (
                       <div key={inc} className="flex items-center gap-2">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#D4AF37', shrink: 0 }}>
@@ -125,7 +125,7 @@ export default function Umrah({ onNavigate }: UmrahProps) {
                         <span className="text-xs" style={{ color: 'rgba(var(--text-main-rgb), 0.65)' }}>{inc}</span>
                       </div>
                     ))}
-                  </div> */}
+                  </div>
 
                   <div className="gold-divider mb-5" />
 
