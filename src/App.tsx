@@ -34,9 +34,9 @@ export default function App() {
       home: 'Baghdadi Travel & Tourism',
       about: 'About Us — Baghdadi Travel & Tourism',
       umrah: 'Umrah Packages — Baghdadi Travel & Tourism',
-      // iran: 'Iran Tours — Baghdadi Travel & Tourism',
+      iran: 'Iran Tours — Baghdadi Travel & Tourism',
       iraq: 'Iraq / Baghdad Tour — Baghdadi Travel & Tourism',
-      // visa: 'Visa & Dubai — Baghdadi Travel & Tourism',
+      visa: 'Visa & Dubai — Baghdadi Travel & Tourism',
       contact: 'Contact Us — Baghdadi Travel & Tourism',
     };
     document.title = titles[currentPage];
@@ -47,9 +47,9 @@ export default function App() {
       case 'home': return <Home onNavigate={navigate} />;
       case 'about': return <About onNavigate={navigate} />;
       case 'umrah': return <Umrah onNavigate={navigate} />;
-      // case 'iran': return <Iran onNavigate={navigate} />;
+      case 'iran': return <Iran onNavigate={navigate} />;
       case 'iraq': return <Iraq onNavigate={navigate} />;
-      // case 'visa': return <Visa onNavigate={navigate} />;
+      case 'visa': return <Visa onNavigate={navigate} />;
       case 'contact': return <Contact onNavigate={navigate} />;
     }
   };
