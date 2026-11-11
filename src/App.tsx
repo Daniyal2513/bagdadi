@@ -4,13 +4,13 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Umrah from './pages/Umrah';
-// import Iran from './pages/Iran';
+import Iran from './pages/Iran';
 import Iraq from './pages/Iraq';
-// import Visa from './pages/Visa';
+import Visa from './pages/Visa';
 import Contact from './pages/Contact';
 
-// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
-type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
+type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+// type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>('home');

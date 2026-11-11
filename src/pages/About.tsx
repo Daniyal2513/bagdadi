@@ -1,5 +1,5 @@
-// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
-type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
+type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+// type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 interface AboutProps {
   onNavigate: (page: Page) => void;
