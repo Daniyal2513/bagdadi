@@ -28,6 +28,16 @@ const packages = [
     page: 'contact' as Page,
   },
   {
+    id: 7,
+    title: 'Malaysia + Thailand',
+    location: 'Malaysia & Thailand',
+    price: '440,000/-',
+    priceNote: 'TAXES INCL/PERS',
+    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+    tag: 'International',
+    page: 'contact' as Page,
+  },
+  {
     id: 2,
     title: 'Pattaya + Bangkok',
     location: 'Thailand',
