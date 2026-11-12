@@ -12,7 +12,7 @@ const packages = [
         // price: '₨255,000',
         // nights: '20 Days',
         // date:'2nd January 2027',
-        img: 'https://unsplash.com/photos/ferry-crossing-bosphorus-in-istanbul-WA1u0scVLZU',
+        img: 'https://6af5a29e2741083616a81753.imgix.net/sandbox/engin-yapici-WA1u0scVLZU-unsplash.jpg?h=500&fit=crop&w=700&auto=format',
         includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
     },
     {
