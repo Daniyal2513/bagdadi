@@ -51,6 +51,33 @@ const packages = [
         img: 'https://6af5a29e2741083616a81753.imgix.net/sandbox/afif-ramdhasuma-XYQPyn4KkiY-unsplash.jpg?h=500&w=700&fit=crop&auto=format',
         includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
     },
+    {
+        title: "Azerbaijan Visa",
+        location: 'Azerbaijan',
+        // price: '₨335,000',
+        // nights: '24 Days',
+        // date: '2nd January 2027',
+        img: 'https://6af5a29e2741083616a81753.imgix.net/sandbox/lloyd-alozie-wX_9ZhIErpg-unsplash.jpg?h=500&w=700&fit=crop&auto=format',
+        includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
+    },
+    {
+        title: "Thailand Visa",
+        location: 'Thailand',
+        // price: '₨335,000',
+        // nights: '24 Days',
+        // date: '2nd January 2027',
+        img: 'https://6af5a29e2741083616a81753.imgix.net/sandbox/mathew-schwartz-gsllxmVO4HQ-unsplash.jpg?h=500&w=700&fit=crop&auto=format',
+        includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
+    },
+    {
+        title: "Malaysia Visa",
+        location: 'Malaysia',
+        // price: '₨335,000',
+        // nights: '24 Days',
+        // date: '2nd January 2027',
+        img: 'https://6af5a29e2741083616a81753.imgix.net/sandbox/esmonde-yong--9B08uduMyY-unsplash.jpg?h=500&w=700&fit=crop&auto=format',
+        includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
+    },
 ];
 
 export default function Visa({ onNavigate }: VisaProps) {
