@@ -70,24 +70,23 @@ export default function Visa({ onNavigate }: VisaProps) {
                 <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center gap-2 text-xs mb-4" style={{ color: 'rgba(var(--text-main-rgb), 0.5)' }}>
                         <button onClick={() => onNavigate('home')} className="hover:text-yellow-400 transition-colors">Home</button>
-                        <span>›</span><span>Tours</span><span>›</span>
+                        <span>›</span><span>›</span>
                         <span style={{ color: '#D4AF37' }}>Visa</span>
                     </div>
-                    <div
+                    {/* <div
                         className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-4"
                         style={{ background: 'rgba(212,175,55,0.12)', border: '1px solid rgba(212,175,55,0.3)', color: '#D4AF37', fontFamily: 'Outfit, sans-serif' }}
                     >
                         Tour Type: Umrah
-                    </div>
+                    </div> */}
                     <h1
                         className="text-3xl sm:text-5xl font-black"
                         style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}
                     >
-                        Umrah <span className="gold-text">Packages</span>
+                        Trusted Visa Consultant in Karachi Visit, Tourist & Business Visas Worldwide.
                     </h1>
                     <p className="mt-3 text-sm" style={{ color: 'rgba(var(--text-main-rgb), 0.65)', maxWidth: '500px' }}>
-                        Embark on a spiritually enriching pilgrimage to the holy cities of Makkah and Madinah with our carefully curated Umrah packages.
-                    </p>
+                        Find the right visa for your next journey. Browse visa requirements, processing times and expert application support for 30+ destinations, all in one place.                    </p>
                 </div>
             </div>
 
@@ -105,12 +104,12 @@ export default function Visa({ onNavigate }: VisaProps) {
                                     <img src={pkg.img} alt={pkg.title} className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
                                     <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(var(--bg-mid-rgb), 0.9) 0%, transparent 50%)' }} />
                                     <div className="absolute bottom-4 left-4">
-                                        <span
+                                        {/* <span
                                             className="px-3 py-1 rounded-full text-xs font-bold"
                                             style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)', color: 'var(--bg-deep)', fontFamily: 'Outfit, sans-serif' }}
                                         >
-                                            {/* {pkg.nights} */}
-                                        </span>
+                                            {pkg.nights}
+                                        </span> */}
                                     </div>
                                 </div>
 
