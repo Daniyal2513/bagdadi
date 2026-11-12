@@ -121,12 +121,12 @@ export default function Visa({ onNavigate }: VisaProps) {
                                         </svg>
                                         <span className="text-xs" style={{ color: 'rgba(212,175,55,0.8)' }}>{pkg.location}</span>
                                     </div>
-                                    <span
+                                    {/* <span
                                         className="px-3 py-1 rounded-full text-xs font-bold"
                                         style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)', color: 'var(--bg-deep)', fontFamily: 'Outfit, sans-serif' }}
                                     >
-                                        {/* {pkg.date} */}
-                                    </span>
+                                        {pkg.date}
+                                    </span> */}
                                     <h3
                                         className="text-xl font-bold mb-4 leading-snug"
                                         style={{ fontFamily: 'Outfit, sans-serif', color: 'var(--text-main)' }}
