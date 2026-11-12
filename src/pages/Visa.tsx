@@ -12,7 +12,7 @@ const packages = [
         // price: '₨255,000',
         // nights: '20 Days',
         // date:'2nd January 2027',
-        img: 'https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?w=700&h=500&fit=crop&auto=format',
+        img: 'https://unsplash.com/photos/ferry-crossing-bosphorus-in-istanbul-WA1u0scVLZU?w=700&h=500&fit=crop&auto=format',
         includes: ['Business Visa', 'Student Visa', 'Visit Visa', 'Tourist Visa', 'Family Visa'],
     },
     {
@@ -70,7 +70,7 @@ export default function Visa({ onNavigate }: VisaProps) {
                 <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center gap-2 text-xs mb-4" style={{ color: 'rgba(var(--text-main-rgb), 0.5)' }}>
                         <button onClick={() => onNavigate('home')} className="hover:text-yellow-400 transition-colors">Home</button>
-                        <span>›</span><span>›</span>
+                        <span>›</span>
                         <span style={{ color: '#D4AF37' }}>Visa</span>
                     </div>
                     {/* <div
