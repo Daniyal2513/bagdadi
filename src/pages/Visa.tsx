@@ -195,7 +195,7 @@ export default function Visa({ onNavigate }: VisaProps) {
                                             onClick={() => onNavigate('contact')}
                                             className="btn-gold px-5 py-2.5 rounded-md text-sm font-bold"
                                         >
-                                            Book a Trip
+                                            Contact for Visa
                                         </button>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@ export default function Visa({ onNavigate }: VisaProps) {
                     </div>
 
                     {/* CTA */}
-                    <div
+                    {/* <div
                         className="mt-14 p-10 rounded-2xl text-center"
                         style={{
                             background: 'linear-gradient(135deg, rgba(212,175,55,0.1), rgba(212,175,55,0.03))',
@@ -220,7 +220,7 @@ export default function Visa({ onNavigate }: VisaProps) {
                         <button onClick={() => onNavigate('contact')} className="btn-gold px-8 py-3 rounded-md text-sm font-bold">
                             Contact Us Today
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>
