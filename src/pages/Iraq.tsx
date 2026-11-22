@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import type { Page } from '../App';
 
-type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+
+// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
 // type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 interface IraqProps {
+  // onNavigate: (page: Page) => void;
   onNavigate: (page: Page) => void;
 }
 

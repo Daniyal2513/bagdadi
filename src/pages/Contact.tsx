@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import type { Page } from '../App';
 
-type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+
+// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
 // type Page = 'home' | 'about' | 'umrah' |  'iraq'  | 'contact';
 
 interface ContactProps {
-  onNavigate: (page: Page) => void;
+  // onNavigate: (page: Page) => void;
+onNavigate: (page: Page) => void;
 }
 const WHATSAPP_NUMBER = '923219262931';
 const WHATSAPP_MESSAGE = 'Hello Baghdadi Travel & Tourism, I would like to inquire about your tours.';

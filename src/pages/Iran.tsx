@@ -1,6 +1,9 @@
-type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
+import type { Page } from '../App';
+
+// type Page = 'home' | 'about' | 'umrah' | 'iran' | 'iraq' | 'visa' | 'contact';
 
 interface IranProps {
+  // onNavigate: (page: Page) => void;
   onNavigate: (page: Page) => void;
 }
 
