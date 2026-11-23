@@ -182,7 +182,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           Copyright © 2025 Baghdaditravels.com. All Rights Reserved.
         </p>
         <p className="text-xs" style={{ color: 'rgba(212,175,55,0.6)', fontFamily: 'Inter, sans-serif' }}>
-          Powered by <a href="https://www.divout.site/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">Divout.</a>
+          Powered by <a href="https://www.houseofdreamy.com/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">HOD</a>
         </p>
       </div>
     </footer>
