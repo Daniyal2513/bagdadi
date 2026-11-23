@@ -21,26 +21,6 @@ const packages = [
     page: 'contact' as Page,
   },
   {
-    id: 6,
-    title: 'Indonesia + Malaysia',
-    location: 'Indonesia & Malaysia',
-    price: '455,000/-',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
-    tag: 'International',
-    page: 'contact' as Page,
-  },
-  {
-    id: 7,
-    title: 'Malaysia + Thailand',
-    location: 'Malaysia & Thailand',
-    price: '440,000/-',
-    priceNote: 'TAXES INCL/PERS',
-    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
-    tag: 'International',
-    page: 'contact' as Page,
-  },
-  {
     id: 2,
     title: 'Pattaya + Bangkok',
     location: 'Thailand',
@@ -52,34 +32,25 @@ const packages = [
   },
   {
     id: 3,
-    title: 'Baghdad Tour 2026 Package 1',
-    location: 'Baghdad',
-    price: '₨310,000',
-    priceNote: '',
-    img: 'https://images.unsplash.com/photo-1564547889663-dbebc1c00849?w=600&h=400&fit=crop&auto=format',
-    tag: 'Ziyarat',
-    page: 'iraq' as Page,
+    title: 'Indonesia + Malaysia',
+    location: 'Indonesia & Malaysia',
+    price: '455,000/-',
+    priceNote: 'TAXES INCL/PERS',
+    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+    tag: 'International',
+    page: 'contact' as Page,
   },
   {
     id: 4,
-    title: 'Ramzan Umrah Package 2',
-    location: 'Makkah, Madina',
-    price: '₨255,000',
-    priceNote: '',
-    img: 'https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?w=600&h=400&fit=crop&auto=format',
-    tag: 'Umrah',
-    page: 'umrah' as Page,
+    title: 'Malaysia + Thailand',
+    location: 'Malaysia & Thailand',
+    price: '440,000/-',
+    priceNote: 'TAXES INCL/PERS',
+    img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop&auto=format',
+    tag: 'International',
+    page: 'contact' as Page,
   },
-  {
-    id: 5,
-    title: 'Ramzan Umrah Package 1',
-    location: 'Makkah, Madina',
-    price: '₨305,000',
-    priceNote: '',
-    img: 'https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=600&h=400&fit=crop&auto=format',
-    tag: 'Umrah',
-    page: 'umrah' as Page,
-  },
+ 
   // {
   //   id: 6,
   //   title: "Rajab Sha'ban Umrah Package 1",
@@ -204,7 +175,7 @@ export default function Home({ onNavigate }: HomeProps) {
           />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-2xl fade-up text-left">
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
