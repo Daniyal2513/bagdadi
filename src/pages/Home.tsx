@@ -175,7 +175,7 @@ export default function Home({ onNavigate }: HomeProps) {
           />
         </div>
 
-        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-16 py-20 lg:py-28">
           <div className="max-w-2xl fade-up text-left">
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
